@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 46px;
+}
+
+.btn{
+    height: 65px;
+    width: 65px;
+    margin: 15px;
+    font-size: 40px;
+}
+
+.number{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.number:hover{
+    background-color: rgb(216, 213, 213);
+}
+
+.operator{
+    color: white;
+    background-color: #ff8c00 ;
+    border-radius: 10px;
+}
+
+.operator:hover{
+    background-color: rgb(223, 80, 80);
+}
+
+.decimal{
+    background-color:#ff8c00 ;
+    border-radius: 10px;
+}
+
+.decimal:hover{
+    background-color: rgb(223, 80, 80);
+}
+
+.equal{
+    background-color: #ff8c00 ;
+    border-radius: 10px;
+}
+
+.equal:hover{
+    background-color: rgb(223, 80, 80);
+}
+
+#clear-btn{
+    background-color: white;
+    border-radius: 10px;
+}
+
+#clear-btn:hover{
+    background-color: rgb(224, 220, 220);
+    
+}
+
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#screen{
+    background-color: white;
+    color: black;
+    width: 260px;
+    height: 75px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.previous{
+    font-size: 30px;
+}
+
+.current{
+    font-size: 30px;
+}
+
+.calculator {
+    background-color: black;
+    border-radius: 10px;
+    height: 500px;
+    width: 400px;
+}
